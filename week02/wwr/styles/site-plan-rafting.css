@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Rock+Salt&display=swap');
 body {
-    font-family: var(--Rock-salt, Roboto);
-    max-width: 90px;
+    font-family: var(--IBM-Plex-Sans);
+    max-width: 960px;
     padding: 20px;
 }
 
@@ -11,8 +11,8 @@ body {
     --accent1-color: #EBEBEB;
     --accent2-color: #DC3535;
 
-    --heading-font: "Rock salt", serif;
-    --paragraph-font: "Roboto", serif;
+    --heading-font: "Rock Salt", serif;
+    --paragraph-font: "IBM Plex Sans", serif;
 
     --nav-background-color: #EBEBEB;
     --nav-link-color: #118AB2;
@@ -21,13 +21,13 @@ body {
 }
 
 body {
-    font-family: var(Rock salt, serif);
+    font-family: var(--IBM-Plex-Sans);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Roboto, serif);
+    font-family: var(--Rock-salt);
     color: var(--#095771)
 }
 
