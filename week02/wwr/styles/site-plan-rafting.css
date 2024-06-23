@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
  nav a {
    display: block;
-   color: var(#118AB2);
+   color: var(--#118AB2);
    text-decoration: none;
    padding: 1rem;
  }
