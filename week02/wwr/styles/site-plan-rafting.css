@@ -27,13 +27,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Rock-salt);
-    color: var(--#095771)
+    font-family: var(--IBM-Plex-Sans);
+    color: var(--#095771);
 }
 
  header {
     padding: 20px;
-    background-color: var(--#EBEBEB)
+    background-color: var(--#EBEBEB);
  }   
 
  p {
