@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: var(--Roboto);
+    max-width: 960px;
+    padding: 20px;
+ }
+ 
+ :root {
+    --primary-color: #095771 ;
+    --secondary-color: #118AB2;
+    --accent1-color: #EBEBEB;
+    --accent2-color: #DC3535;
+ 
+    --heading-font: "Roboto", serif;
+    --paragraph-font: "IBM Plex Sans", serif;
+ 
+    --nav-background-color: #EBEBEB;
+    --nav-link-color: #118AB2;
+    --nav-hover-link-color: #095771;
+    --nav-hover-background-color: #EBEBEB;
+ }
+ 
+ body {
+    font-family: var(--Roboto);
+    max-width: 960px;
+    padding: 20px;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Roboto);
+    color: var(--#095771);
+ }
+ 
+  header {
+    padding: 20px;
+    background-color: var(--#EBEBEB);
+  }   
+ 
+  p {
+    padding: 25px;
+  }
+ 
+  nav {
+    background-color: var(--#EBEBEB);
+    font-size: 1.2rem;
+    display: flex;
+  }
+ 
+  nav a {
+    display: block;
+    color: var(--#118AB2);
+    text-decoration: none;
+    padding: 1rem;
+  }
+ 
+  nav a:link, nav a:visited {
+    color: var(--#118AB2);
+  }
+ 
+  nav a:hover {
+    color: var(--#095771);
+    background-color: var(--#EBEBEB);
+  }
+ 
