@@ -32,6 +32,7 @@
 
 .hero article {
   position: absolute;
+  background-color: rgb(9, 87, 113, .5);
 }
 
 .hero article img {
