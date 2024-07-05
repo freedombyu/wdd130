@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 :root {
-  --primary-color: #095771 ;
+  --primary-color: #095771;
   --secondary-color: #118AB2;
   --accent1-color: #EBEBEB;
   --accent2-color: #DC3535;
@@ -21,3 +17,9 @@
   --nav-hover-background-color: #EBEBEB;
 }
 
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
