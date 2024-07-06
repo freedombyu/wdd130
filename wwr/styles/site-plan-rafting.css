@@ -34,12 +34,11 @@ h1, h2, h3, h4, h5, h6 {
  header {
    padding: 20px;
    background-color: var(--#EBEBEB);
-   
  }   
 
  header, footer {
-  max-width: 840;
-  margin: auto;
+  max-width: 840px;
+  margin: 0 auto;
  }
 
  p {
@@ -54,10 +53,37 @@ h1, h2, h3, h4, h5, h6 {
    align-items: center;
  }
 
+
+ .grid {
+  display: grid;
+  align-items: center;
+ }
+
+ main {
+  grid-column: 2/3;
+  margin: 1rem;
+ }
+
+ aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+ }
+ .box {
+  margin: 1rem;
+  border: 1px solide rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #eee;
+  color: 1;
+ }
+
  nav a {
    display: block;
    padding: 0.5rem;
    text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 700;
    color: #fff;
  }
 
@@ -69,8 +95,5 @@ h1, h2, h3, h4, h5, h6 {
    color: var(--#095771);
    background-color: var(--#EBEBEB);
  }
-header, .gride, footer{
-  max-width:840px;
-  margin: 0 auto;
-}
+
  
