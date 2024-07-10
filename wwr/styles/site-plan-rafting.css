@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Rock+Salt&display=swap');
-body {
-   font-family: var(--IBM-Plex-Sans);
-   max-width: 960px;
-   padding: 20px;
-}
 
+html {
+  margin: 0px;
+}
 :root {
    --primary-color: #095771 ;
-   --secondary-color: #118AB2;
+   --secondary-color: hsl(195, 83%, 38%);
    --accent1-color: #EBEBEB;
    --accent2-color: #DC3535;
 
@@ -22,8 +20,7 @@ body {
 
 body {
    font-family: var(--IBM-Plex-Sans);
-   max-width: 960px;
-   padding: 20px;
+   margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +34,8 @@ h1, h2, h3, h4, h5, h6 {
  }   
 
  header, footer {
-  max-width: 840px;
+  background-color: #118AB2;
+  width: 100%;
   margin: 0 auto;
  }
 
