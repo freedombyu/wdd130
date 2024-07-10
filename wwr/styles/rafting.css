@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-
 :root {
   --primary-color: #095771;
   --secondary-color: #118AB2;
@@ -17,14 +16,45 @@
   --nav-hover-background-color: #EBEBEB;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  background-color: #d3c8eb;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .hero img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .hero {
   position: relative;
 }
+
 .hero h1 {
   position: absolute;
   top: 1rem;
@@ -49,4 +79,52 @@
 
 .sociallinks {
   text-decoration: none;
+}
+
+.history {
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+.history-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-content img {
+  max-width: 200px;
+  margin: 0 20px;
+}
+
+.adventures {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.adventures figure {
+  text-align: center;
+}
+
+.adventures img {
+  max-width: 150px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d3c8eb;
+  padding: 10px;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+footer .social-icons img {
+  max-width: 30px;
+  height: auto;
 }
