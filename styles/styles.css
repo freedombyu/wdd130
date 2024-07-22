@@ -62,12 +62,6 @@ aside h2 {
     left: 150px;
 }
 
-
-aside {
-    width: 20em;
-    text-align:center;
-}
-
 p { padding: 0;}
 
 footer {
@@ -75,6 +69,7 @@ footer {
     border-top: 1px solide #000;
     text-align: center;
 }
+
 * {
     margin: 0;
     padding: 0;
