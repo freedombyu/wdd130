@@ -40,8 +40,13 @@ nav li {
 }
 
 nav a {
+  background-color: #EBEBEB;
   text-decoration: none;
   color: black;
+}
+
+nav a:hove{
+  color:#095771
 }
 
 
